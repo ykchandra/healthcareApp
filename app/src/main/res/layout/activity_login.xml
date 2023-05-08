@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.047" />
 
     <TextView
-        android:id="@+id/textViewApptitle"
+        android:id="@+id/textViewBMBPackageName"
         android:layout_width="121dp"
         android:layout_height="41dp"
         android:fontFamily="@font/aref_ruqaa"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.307" />
 
     <EditText
-        android:id="@+id/editTextAppFullName"
+        android:id="@+id/editTextLTBFullname"
         android:layout_width="324dp"
         android:layout_height="49dp"
         android:background="@drawable/input_bg"
@@ -86,7 +86,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCartBack"
+        android:id="@+id/buttonBMCartBack"
         android:layout_width="133dp"
         android:layout_height="54dp"
         android:background="@drawable/btn_bg"

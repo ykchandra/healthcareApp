@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.047" />
 
     <TextView
-        android:id="@+id/textViewApptitle"
+        android:id="@+id/textViewBMBPackageName"
         android:layout_width="381dp"
         android:layout_height="49dp"
         android:fontFamily="@font/aref_ruqaa"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.205" />
 
     <EditText
-        android:id="@+id/editTextAppFullName"
+        android:id="@+id/editTextLTBFullname"
         android:layout_width="324dp"
         android:layout_height="49dp"
         android:background="@drawable/input_bg"
@@ -63,7 +63,7 @@
         app:layout_constraintVertical_bias="0.321" />
 
     <EditText
-        android:id="@+id/editTextAppAddress"
+        android:id="@+id/editTextLTBAddress"
         android:layout_width="324dp"
         android:layout_height="49dp"
         android:background="@drawable/input_bg"
@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.431" />
 
     <EditText
-        android:id="@+id/editTextAppContactNumber"
+        android:id="@+id/editTextLTBPincode"
         android:layout_width="324dp"
         android:layout_height="49dp"
         android:background="@drawable/input_bg"
@@ -111,7 +111,7 @@
         app:layout_constraintVertical_bias="0.545" />
 
     <EditText
-        android:id="@+id/editTextAppFees"
+        android:id="@+id/editTextLTBContact"
         android:layout_width="324dp"
         android:layout_height="49dp"
         android:background="@drawable/input_bg"
@@ -135,7 +135,7 @@
         app:layout_constraintVertical_bias="0.645" />
 
     <Button
-        android:id="@+id/buttonCartBack"
+        android:id="@+id/buttonBMCartBack"
         android:layout_width="133dp"
         android:layout_height="54dp"
         android:background="@drawable/btn_bg"

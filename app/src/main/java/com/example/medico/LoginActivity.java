@@ -24,9 +24,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        edUsername=findViewById(R.id.editTextAppFullName);
+        edUsername=findViewById(R.id.editTextLTBFullname);
         edPassword=findViewById(R.id.editTextLoginPassword);
-        btn= findViewById(R.id.buttonCartBack);
+        btn= findViewById(R.id.buttonBMCartBack);
         tv=findViewById(R.id.textViewExistingUser);
 
         btn.setOnClickListener(new View.OnClickListener() {

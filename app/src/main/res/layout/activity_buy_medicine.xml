@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back1"
-    tools:context=".DoctorDetailsActivity">
-
+    android:background="@drawable/back2"
+    tools:context=".BuyMedicineActivity">
     <TextView
         android:id="@+id/textViewODName"
         android:layout_width="wrap_content"
@@ -28,12 +27,12 @@
 
     <TextView
         android:id="@+id/textViewODTitle"
-        android:layout_width="150dp"
-        android:layout_height="28dp"
-        android:text="Default Text"
+        android:layout_width="224dp"
+        android:layout_height="39dp"
+        android:text="Deliver Location : Delhi"
         android:textAlignment="center"
-        android:textColor="@color/colorWhite"
-        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,10 +41,26 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewODName"
         app:layout_constraintVertical_bias="0.03" />
 
+    <TextView
+        android:id="@+id/textViewBMTitle"
+        android:layout_width="241dp"
+        android:layout_height="31dp"
+        android:text="Buy Medicines"
+        android:textAlignment="center"
+        android:textColor="@color/purpleDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewODName"
+        app:layout_constraintVertical_bias="0.093" />
+
     <ListView
         android:id="@+id/listViewBM"
-        android:layout_width="350dp"
-        android:layout_height="500dp"
+        android:layout_width="370dp"
+        android:layout_height="478dp"
         android:layout_margin="10dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
@@ -58,14 +73,23 @@
         app:layout_constraintVertical_bias="0.542" />
 
     <Button
+        android:id="@+id/buttonBMBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonBMBack"
         android:text="BACK"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.69"/>
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/buttonBMGoToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

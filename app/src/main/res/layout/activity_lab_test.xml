@@ -7,7 +7,7 @@
     android:background="@drawable/back2"
     tools:context=".LabTestActivity">
     <TextView
-        android:id="@+id/textViewDDName"
+        android:id="@+id/textViewODName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textViewDDTitle"
+        android:id="@+id/textViewODTitle"
         android:layout_width="224dp"
         android:layout_height="39dp"
         android:text="Deliver Location : Delhi"
@@ -38,11 +38,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewODName"
         app:layout_constraintVertical_bias="0.03" />
 
     <TextView
-        android:id="@+id/textViewDDTitle2"
+        android:id="@+id/textViewBMTitle"
         android:layout_width="241dp"
         android:layout_height="31dp"
         android:text="Lab Test and Packages"
@@ -54,11 +54,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewODName"
         app:layout_constraintVertical_bias="0.093" />
 
     <ListView
-        android:id="@+id/listViewLT"
+        android:id="@+id/listViewBM"
         android:layout_width="370dp"
         android:layout_height="478dp"
         android:layout_margin="10dp"
@@ -67,13 +67,13 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDDTitle"
-        app:layout_constraintVertical_bias="0.542" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewODTitle"
+        app:layout_constraintVertical_bias="0.666" />
 
     <Button
-        android:id="@+id/buttonLTBack"
+        android:id="@+id/buttonBMBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BACK"
@@ -83,7 +83,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/buttonLTGoToCart"
+        android:id="@+id/buttonBMGoToCart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go To Cart"

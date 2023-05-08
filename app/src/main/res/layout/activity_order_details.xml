@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back1"
-    tools:context=".DoctorDetailsActivity">
+    tools:context=".OrderDetailsActivity">
+
 
     <TextView
         android:id="@+id/textViewODName"
@@ -28,44 +29,42 @@
 
     <TextView
         android:id="@+id/textViewODTitle"
-        android:layout_width="150dp"
-        android:layout_height="28dp"
-        android:text="Default Text"
+        android:layout_width="277dp"
+        android:layout_height="59dp"
+        android:text="ORDER DETAILS"
         android:textAlignment="center"
-        android:textColor="@color/colorWhite"
-        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewODName"
-        app:layout_constraintVertical_bias="0.03" />
+        app:layout_constraintVertical_bias="0.073" />
 
     <ListView
         android:id="@+id/listViewBM"
-        android:layout_width="350dp"
-        android:layout_height="500dp"
+        android:layout_width="369dp"
+        android:layout_height="385dp"
         android:layout_margin="10dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewODTitle"
-        app:layout_constraintVertical_bias="0.542" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
+        android:id="@+id/buttonBMBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonBMBack"
+        android:layout_marginBottom="16dp"
         android:text="BACK"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.69"/>
-
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
