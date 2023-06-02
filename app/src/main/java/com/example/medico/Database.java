@@ -149,6 +149,6 @@ public class Database extends SQLiteOpenHelper {
         return arr;
     }
 
-    public int checkAppointmentExists(String username, String s, String address, String contact, String toString) {
-    }
+   // public int checkAppointmentExists(String username, String s, String address, String contact, String toString) {
+    //}
 }

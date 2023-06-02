@@ -91,13 +91,13 @@ public class BookAppointmentActivity extends AppCompatActivity {
                 SharedPreferences sharedPreferences= getSharedPreferences("shared_prefs", Context.MODE_PRIVATE);
                 String username= sharedPreferences.getString("username", "").toString();
 
-                if (db.checkAppointmentExists(username, title+" => "+fullname, address, contact, dateButton.getText().toString())==1){
-                    Toast.makeText(getApplicationContext(), "Appointment already booked", Toast.LENGTH_SHORT).show();
-                }else{
-                    db.addOrder(username, title+" => "+fullname,address, contact, 0,dateButton.getText().toString(), timeButton.getText().toString(), Float.parseFloat(fees), "appointment");
-                    Toast.makeText(getApplicationContext(), "Your appointment is done successfully", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(BookAppointmentActivity.this, HomeActivity.class));
-                }
+//                if (db.checkAppointmentExists(username, title+" => "+fullname, address, contact, dateButton.getText().toString())==1){
+//                    Toast.makeText(getApplicationContext(), "Appointment already booked", Toast.LENGTH_SHORT).show();
+//                }else{
+//                    db.addOrder(username, title+" => "+fullname,address, contact, 0,dateButton.getText().toString(), timeButton.getText().toString(), Float.parseFloat(fees), "appointment");
+//                    Toast.makeText(getApplicationContext(), "Your appointment is done successfully", Toast.LENGTH_SHORT).show();
+//                    startActivity(new Intent(BookAppointmentActivity.this, HomeActivity.class));
+//                }
             }
         });
 
