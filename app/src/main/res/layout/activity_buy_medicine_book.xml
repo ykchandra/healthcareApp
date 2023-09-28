@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/blackback"
     tools:context=".BuyMedicineBookActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:fontFamily="cursive"
         android:text="MediCo"
         android:textAlignment="center"
-        android:textColor="@color/purpleDark"
+        android:textColor="@color/teal_700"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,7 @@
         android:fontFamily="@font/aref_ruqaa"
         android:text="Enter Details for Booking"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/teal_200"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

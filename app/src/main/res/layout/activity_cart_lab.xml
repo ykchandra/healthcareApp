@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/blackback"
     tools:context=".CartLabActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:fontFamily="cursive"
         android:text="MediCo"
         android:textAlignment="center"
-        android:textColor="@color/purpleDark"
+        android:textColor="@color/teal_700"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

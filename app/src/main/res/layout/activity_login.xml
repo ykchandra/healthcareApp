@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back1"
+    android:background="@drawable/blackback"
     tools:context=".LoginActivity">
 
     <TextView
@@ -14,22 +14,23 @@
         android:fontFamily="cursive"
         android:text="MediCo"
         android:textAlignment="center"
-        android:textColor="@color/purpleDark"
+        android:textColor="@color/teal_200"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047" />
+        app:layout_constraintVertical_bias="0.024" />
 
     <TextView
         android:id="@+id/textViewBMBPackageName"
-        android:layout_width="121dp"
-        android:layout_height="41dp"
+        android:layout_width="233dp"
+        android:layout_height="47dp"
         android:fontFamily="@font/aref_ruqaa"
-        android:text="Login"
+        android:text="Please Login "
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/teal_200"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -89,16 +90,18 @@
         android:id="@+id/buttonBMCartBack"
         android:layout_width="133dp"
         android:layout_height="54dp"
-        android:background="@drawable/btn_bg"
+        android:background="@color/teal_200"
         android:text="LOGIN"
         android:textColorHighlight="@color/colorWhite"
         android:textColorLink="@color/colorWhite"
-        app:iconTint="@color/colorWhite"
+        app:cornerRadius="24dp"
+        app:iconTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.623" />
+        app:layout_constraintVertical_bias="0.623"
+        app:strokeColor="#564D4D" />
 
     <TextView
         android:id="@+id/textViewExistingUser"
@@ -106,7 +109,7 @@
         android:layout_height="38dp"
         android:text="Register for New User"
         android:textAlignment="center"
-        android:textColor="@color/yellowLight"
+        android:textColor="@color/teal_200"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,4 +117,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.74" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="79dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/medicalteam" />
 </androidx.constraintlayout.widget.ConstraintLayout>
