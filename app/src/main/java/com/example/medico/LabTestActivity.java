@@ -25,22 +25,22 @@ public class LabTestActivity extends AppCompatActivity {
             };
     private String[] package_details=
             {
-                    "Blood Glucose Fasting\n"+
-                        "Complete Hemogram\n"+
-                        "HbA1c\n" +
-                        "Iron Studies\n"+
-                        "Kidney Function Test\n"+
-                        "LDH Lactate Dehydrogenase, Serum\n"+
-                        "Lipid Profile\n" +
-                            "Liver Function Test",
-            "Blood Glucose Fasting",
-            "COVID-19 Antibody - IgG",
-            "Thyroid Profile-Total (T3, T4 & TSH Ultra-sensitive)",
-                    "Complete Hemogram\n" +
-            "CRP (C Reactive Protein) Quantitative, Serum\n" +"Iron Studies\n"+
-            "Kidney Function Test\n" +
-            "Vitamin D Total-25 Hydroxy\n"+ "Liver Function Test\n"+
-            "Lipid Profile"
+                    "* Blood Glucose Fasting\n"+
+                        "* Complete Hemogram\n"+
+                        "* HbA1c\n" +
+                        "* Iron Studies\n"+
+                        "* Kidney Function Test\n"+
+                        "* LDH Lactate Dehydrogenase, Serum\n"+
+                        "* Lipid Profile\n" +
+                            "* Liver Function Test",
+            "* Blood Glucose Fasting",
+            "* COVID-19 Antibody - IgG",
+            "* Thyroid Profile-Total (T3, T4 & TSH Ultra-sensitive)",
+                    "* Complete Hemogram\n" +
+            "* CRP (C Reactive Protein) Quantitative, Serum\n" +"* Iron Studies\n"+
+            "* Kidney Function Test\n" +
+            "* Vitamin D Total-25 Hydroxy\n"+ "* Liver Function Test\n"+
+            "* Lipid Profile"
             };
     HashMap<String, String> item;
     ArrayList list;

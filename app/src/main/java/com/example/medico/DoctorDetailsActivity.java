@@ -17,43 +17,43 @@ import java.util.HashMap;
 public class DoctorDetailsActivity extends AppCompatActivity {
     private String[][] doctor_details1=
             {
-                    {"Doctor Name : YASH KUMAR", "Hospital Address : DHANBAD", "Exp : 5yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : ARHAM SHARJEEL", "Hospital Address : MAU", "Exp : 15yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : ANKUR SINGH", "Hospital Address : PRAYAGRAJ", "Exp : 2yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : VARNIT SINGH", "Hospital Address : LUCKNOW", "Exp : 4yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : DIVYANSHU CHANDRA", "Hospital Address : UNNAO", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. YASH KUMAR", "Hospital Address : DHANBAD", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. ARHAM SHARJEEL", "Hospital Address : MAU", "Exp : 15yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. ANKUR SINGH", "Hospital Address : PRAYAGRAJ", "Exp : 2yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. VARNIT SINGH", "Hospital Address : LUCKNOW", "Exp : 4yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. DIVYANSHU CHANDRA", "Hospital Address : UNNAO", "Exp : 5yrs", "Mobile No :9876543210", "600"},
             };
     private String[][] doctor_details2=
             {
-                    {"Doctor Name : UNNATI", "Hospital Address : RAE BARELI", "Exp : 5yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : SHREYASHI", "Hospital Address : LUCKNOW", "Exp : 15yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : ISHITA", "Hospital Address : KANPUR", "Exp : 2yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : AASTHA", "Hospital Address : RANCHI", "Exp : 4yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : AKANSHA", "Hospital Address : VARANASI", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. UNNATI", "Hospital Address : RAE BARELI", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. SHREYASHI RAI", "Hospital Address : LUCKNOW", "Exp : 15yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. ISHITA SHRIVASTAVA", "Hospital Address : KANPUR", "Exp : 2yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. AASTHA BARANWAL", "Hospital Address : RANCHI", "Exp : 4yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. AKANKSHA SINGH", "Hospital Address : VARANASI", "Exp : 5yrs", "Mobile No :9876543210", "600"},
             };
     private String[][] doctor_details3=
             {
-                    {"Doctor Name : HARSHAL", "Hospital Address : DHANBAD", "Exp : 5yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : ABHINAV", "Hospital Address : MAU", "Exp : 15yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : ANURAG", "Hospital Address : PRAYAGRAJ", "Exp : 2yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : ASHUTOSH", "Hospital Address : LUCKNOW", "Exp : 4yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : GYANANSHU", "Hospital Address : UNNAO", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. HARSHAL AGRAHARI", "Hospital Address : DHANBAD", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. ABHINAV TRIPATHI", "Hospital Address : MAU", "Exp : 15yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. ANURAG SINGH", "Hospital Address : PRAYAGRAJ", "Exp : 2yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. ASHUTOSH TIWARI", "Hospital Address : LUCKNOW", "Exp : 4yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. GYANANSHU KASHYAP", "Hospital Address : UNNAO", "Exp : 5yrs", "Mobile No :9876543210", "600"},
             };
     private String[][] doctor_details4=
             {
-                    {"Doctor Name : SAMRIDHI", "Hospital Address : DHANBAD", "Exp : 5yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : SHIVALIKA", "Hospital Address : MAU", "Exp : 15yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : SIMRAN", "Hospital Address : PRAYAGRAJ", "Exp : 2yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : PARMITA", "Hospital Address : LUCKNOW", "Exp : 4yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : SHWETA", "Hospital Address : UNNAO", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. SAMRIDHI SINGH", "Hospital Address : DHANBAD", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. SHIVALIKA SINHA", "Hospital Address : MAU", "Exp : 15yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. SIMRAN CHAURASIYA", "Hospital Address : PRAYAGRAJ", "Exp : 2yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. PARMITA SINGH", "Hospital Address : LUCKNOW", "Exp : 4yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. SHWETA MISHRA", "Hospital Address : UNNAO", "Exp : 5yrs", "Mobile No :9876543210", "600"},
             };
     private String[][] doctor_details5=
             {
-                    {"Doctor Name : HARSHIT", "Hospital Address : DHANBAD", "Exp : 5yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : SHIVAM", "Hospital Address : MAU", "Exp : 15yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : ACHINTYA", "Hospital Address : PRAYAGRAJ", "Exp : 2yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : ANURAG", "Hospital Address : LUCKNOW", "Exp : 4yrs", "Mobile No :9876543210", "600"},
-                    {"Doctor Name : SHUBHAM", "Hospital Address : UNNAO", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. HARSHIT SHRIVASTAVA", "Hospital Address : DHANBAD", "Exp : 5yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. SHIVAM JHA", "Hospital Address : MAU", "Exp : 15yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. ACHINTYA NATH", "Hospital Address : PRAYAGRAJ", "Exp : 2yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. ANURAG CHOWDHURY", "Hospital Address : LUCKNOW", "Exp : 4yrs", "Mobile No :9876543210", "600"},
+                    {"Dr. Name : Dr. SHUBHAM SAHIL", "Hospital Address : UNNAO", "Exp : 5yrs", "Mobile No :9876543210", "600"},
             };
 
     TextView tv;
@@ -103,7 +103,7 @@ public class DoctorDetailsActivity extends AppCompatActivity {
             item.put("line2", doctor_details[i][1]);
             item.put("line3", doctor_details[i][2]);
             item.put("line4", doctor_details[i][3]);
-            item.put("line5", "Cons Fees: "+doctor_details[i][4]+ "/-");
+            item.put("line5", "Cons. Fees: "+doctor_details[i][4]+ "/-");
             list.add(item);
         }
         //Mapping

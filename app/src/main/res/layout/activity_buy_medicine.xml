@@ -45,7 +45,7 @@
         android:id="@+id/textViewBMTitle"
         android:layout_width="241dp"
         android:layout_height="31dp"
-        android:text="Buy Medicines"
+        android:text="BUY MEDICINES"
         android:textAlignment="center"
         android:textColor="@color/purpleDark"
         android:textSize="20sp"

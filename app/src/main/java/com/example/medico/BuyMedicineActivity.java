@@ -16,15 +16,16 @@ import java.util.HashMap;
 public class BuyMedicineActivity extends AppCompatActivity {
 
     private String[][] packages={
-            {"Uprise-D3 capsules", "", "", "", "50"},
-            {"Chromium Healthvit tablets", "", "", "", "305"},
-            {"Vitamin-B Complex capsules", "", "", "", "500"},
-            {"Vitamin-E Capsules", "", "", "", "250"},
-            {"Dolo-650", "", "", "", "120"},
-            {"Crocin 650 Advance tablets", "", "", "", "290"},
-            {"Strepsils ", "", "", "", "110"},
-            {"Zithrocin 500", "", "", "", "350"},
-            {"Feronia-XT tablets", "", "", "", "220"},
+            {"Uprise-D3 Tablets", "10x3=30 Tab", "EXPY: ", "12/2023", "50"},
+            {"Chromium Tablets", "12x3=36 Tab", "EXPY: ", "2/2023", "305"},
+            {"Vitamin-B Complex Tablets", "10x2=20 Tab", "EXPY: ", "01/2024", "500"},
+            {"Vitamin-E Tablets", "12x2=24 Tab", "EXPY: ", "12/2023", "250"},
+            {"Dolo-650 Tablets", "7x3=21 Tab", "EXPY: ", "09/2024", "120"},
+            {"Crocin Advance Tablets", "5x2=10 Tab", "EXPY: ", "10/2024", "290"},
+            {"Strepsils Tablets ", "10x4=40 Tab", "EXPY: ", "08/2025", "110"},
+            {"Zithrocin 500 Tablets", "18x2=36 Tab", "EXPY: ", "11/2024", "350"},
+            {"Feronia-XT Tablets", "15x3=45 Tab", "EXPY: ", "04/2024", "220"},
+           
     };
     private String [] package_details={
             "Uprise-D3 60K Capsule is used in the treatment of vitamin D deficiency and osteoporosis.\n"+"It helps the body to absorb calcium\n"+"Calcium is essential for maintaining strong and healthy bones",
